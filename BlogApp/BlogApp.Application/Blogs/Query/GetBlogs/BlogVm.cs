@@ -1,6 +1,9 @@
-﻿namespace BlogApp.Application.Blogs.Query.GetBlogs
+﻿using BlogApp.Application.Common.Mappings;
+using BlogApp.Domain.Entity;
+
+namespace BlogApp.Application.Blogs.Query.GetBlogs
 {
-    public class BlogVm
+    public class BlogVm : IMapFrom<Blog>
     {
         public int Id { get; set; }
         public string Name { get; set; }
