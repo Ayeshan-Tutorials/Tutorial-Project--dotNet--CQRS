@@ -10,7 +10,6 @@
     <Folder Include="Blogs\Commands\CreateBlog\" />
     <Folder Include="Blogs\Commands\DeleteBlog\" />
     <Folder Include="Blogs\Commands\UpdateBlog\" />
-    <Folder Include="Blogs\Query\GetBlogs\" />
     <Folder Include="Blogs\Query\GetBlogById\" />
     <Folder Include="Common\Behaviours\" />
     <Folder Include="Common\Exceptions\" />
